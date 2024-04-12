@@ -1,5 +1,5 @@
 //prime number
-/*let i=7
+let i=7
 let flag=true;
 for(let j=2;j<=i/2;j++){
   if(i%j==0){
@@ -13,20 +13,20 @@ if(flag){
 }
 else
   console.log(i,"not prime number")
-*/
+
 
 //Sum of Array
-/*
+
 let arr=[1,2,3,4,5,6,7,8,9,10]
 let sum=0
 for(let i=0;i<arr.length;i++){
   sum=sum+arr[i]
 }
 console.log("Sum of the array is",sum)
-*/
+
 
 //Max, Min of an array
-/*
+
 let a=[45,23,53,11,12,9,7,1,25]
 let max=a[0]
 let min=a[0]
@@ -40,10 +40,10 @@ for(let i=0;i<a.length;i++){
 }
 console.log("Max of the array is",max)
 console.log("Min of the array is",min)
-*/
+
 
 //Pattern program
-/*
+
 let n = 5;
 for (let i = 1; i <= n; i++) {
     let row = '';
@@ -52,10 +52,9 @@ for (let i = 1; i <= n; i++) {
     }
     console.log(row); // Print the row
 }
-*/
 
 //Count number of occurances of the term in an array
-/*
+
 let a = [1, 2, 3, 43, 3, 2, 1, 43, 54, 43, 43];
 for (let i = 0; i < a.length; i++) {
   let count = 1;
@@ -69,10 +68,10 @@ for (let i = 0; i < a.length; i++) {
     console.log("Number of occurances of", a[i], "is", count);
   }
 }
-*/
+
 
 //Fibinocci series
-/*
+
 let a=0
 let b=1
 //let n=prompt("Enter the number of terms in fibinocci series")
@@ -86,10 +85,10 @@ for(let i=2;i<=n;i++){
   a=b
   b=c
 }
-*/
+
 
 //Factorial of a number
-/*
+
 let n=5
 let fact=1
 while(n>0){
@@ -97,10 +96,10 @@ while(n>0){
   n--
 }
 console.log(fact)
-*/
+
 
 //Reverse a number
-/*
+
 let n=198
 let rev=0
 while(n>0){
@@ -109,10 +108,10 @@ while(n>0){
   n=Math.floor(n/10)
 }
 console.log(rev)
-*/
+
 
 //Palindrome number
-/*
+
 let n=198
 let dup=n
 let rev=0
@@ -126,10 +125,10 @@ if(rev==dup){
 }
 else
   console.log("Not a Palindrome")
-  */
+  
 
 //Armstrong number
-/*
+
 let n=153
 let rev=0
 let dup=n
@@ -143,10 +142,10 @@ if(dup==rev){
 }
 else
   console.log("Not a Armstrong number")
-  */
+  
 
 //String palindrome
-/*
+
 let n="malayalam"
 let rev=""
 for(let i=n.length-1;i>=0;i--){
@@ -157,17 +156,17 @@ if(n==rev){
 }
 else
   console.log("Not a Palindrome")
-  */
+  
 
 //String reverse
-/*
+
 let n="shreeprabha"
 let rev=""
 for(let i=n.length-1;i>=0;i--){
   rev=rev+n[i]
 }
 console.log(rev)
-*/
+
 
 //Count number of character in a string
 
